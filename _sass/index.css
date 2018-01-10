@@ -1,0 +1,279 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  #top {
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    float: left;
+    font-family: 'Fredoka One';
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #00ABD8;
+  }
+
+  h1 {
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    float: left;
+    font-family: 'Fredoka One';
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #00ABD8;
+  }
+
+  img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px;
+    display: block;
+    background-attachment: fixed;
+  }
+
+  p {
+    padding: 30px;
+    margin: auto;
+    color: #fff;
+    line-height: 25px;
+    width: 88%;
+    font-size: 20px;
+    font-family: 'Raleway', 'Quicksand', 'Dosis', 'Nunito', 'Reem Kufi', sans-serif;
+    color: #969696;
+  }
+  p strong {
+    color: #00ABD8;
+  }
+
+  header {
+    width: 100%;
+    padding-top: 10px;
+    text-align: left;
+    float: left;
+    max-width: 300px;
+    /* end div */
+  }
+  header div {
+    /* end nav */
+  }
+  header div nav {
+    font-size: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+    font-family: 'Fredoka One', cursive;
+    text-align: left;
+    padding: 10px;
+    padding-left: 30px;
+  }
+  header div nav #aa {
+    color: #efc028;
+  }
+  header div nav #bb {
+    color: #F2572D;
+  }
+  header div nav #cc {
+    color: #008972;
+  }
+  header div nav #dd {
+    color: #0067A6;
+  }
+
+  /* end header */
+  main {
+    /*end projects*/
+    /* end future */
+    /* end about */
+    /* end about */
+  }
+  main #projects {
+    background-image: url("../img/bjerg.jpg");
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+    margin-top: 300px;
+    /*end project 1 */
+  }
+  main #projects #projectsheader {
+    color: #fff;
+  }
+  main #projects div {
+    background-color: rgba(239, 192, 40, 0.9);
+    /*end div*/
+  }
+  main #projects div img {
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px;
+    display: block;
+  }
+  main #projects div div {
+    background-color: rgba(239, 192, 40, 0.9);
+    /*end p*/
+  }
+  main #projects div div h4 {
+    font-size: 30px;
+    width: 100%;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+  }
+  main #projects div div p {
+    padding: 30px;
+    margin: auto;
+    color: #fff;
+    line-height: 25px;
+    width: 88%;
+    font-size: 20px;
+    font-family: 'Raleway', 'Quicksand', 'Dosis', 'Nunito', 'Reem Kufi', sans-serif;
+    color: #fff;
+    padding: 20px;
+    opacity: 1;
+    letter-spacing: 1px;
+    filter: alpha(opacity=70);
+    /* For IE8 and earlier */
+  }
+  main #future {
+    background-color: #F2572D;
+  }
+  main #future #futureheader {
+    color: #fff;
+  }
+  main #future p {
+    padding: 10px;
+    margin: auto;
+    line-height: 25px;
+    width: 85%;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Raleway', 'Quicksand', 'Dosis', 'Nunito', 'Reem Kufi', sans-serif;
+    color: #fff;
+  }
+  main #future ul {
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  main #future ul li {
+    padding: 30px;
+    margin: auto;
+    color: #fff;
+    line-height: 25px;
+    width: 88%;
+    font-size: 20px;
+    font-family: 'Raleway', 'Quicksand', 'Dosis', 'Nunito', 'Reem Kufi', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    line-height: 20px;
+    padding: 7px;
+  }
+  main #about {
+    background-color: #008972;
+    margin: 0 auto;
+  }
+  main #about #aboutheader {
+    padding-top: 20px;
+    float: none;
+    color: #fff;
+    margin: 0 auto;
+  }
+  main #about h4 {
+    font-size: 30px;
+    width: 100%;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+  }
+  main #about p {
+    padding: 30px;
+    margin: auto;
+    color: #fff;
+    line-height: 25px;
+    width: 88%;
+    font-size: 20px;
+    font-family: 'Raleway', 'Quicksand', 'Dosis', 'Nunito', 'Reem Kufi', sans-serif;
+    color: #fff;
+  }
+  main #about ul {
+    display: block;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  main #about ul li {
+    padding: 30px;
+    margin: auto;
+    color: #fff;
+    line-height: 25px;
+    width: 88%;
+    font-size: 20px;
+    font-family: 'Raleway', 'Quicksand', 'Dosis', 'Nunito', 'Reem Kufi', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    line-height: 20px;
+    padding: 7px;
+  }
+  main #contact {
+    background-color: #0067A6;
+    margin: auto;
+  }
+  main #contact #contactheader {
+    padding-top: 20px;
+    float: none;
+    color: #fff;
+    margin: 0 auto;
+  }
+  main #contact p {
+    color: #fff;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  main #contact p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  main #contact p {
+    padding: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    text-align: center;
+  }
+  main #contact p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  main #contact p {
+    padding: 30px;
+    margin: auto;
+    color: #fff;
+    line-height: 25px;
+    width: 88%;
+    font-size: 20px;
+    font-family: 'Raleway', 'Quicksand', 'Dosis', 'Nunito', 'Reem Kufi', sans-serif;
+  }
+
+  /*end main */
+}
+/* End max width 600px */

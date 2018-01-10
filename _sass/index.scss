@@ -1,0 +1,226 @@
+@import "_reset";
+@import "_variables";
+@import "_mixin";
+
+body{
+  background-color: $backgroundColor;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+
+  #top {
+    @include h1;
+    color: $color3;
+  }
+
+  h1 {
+    @include h1;
+    color: $color3;
+  }
+
+  img{
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+    padding: 10px;
+    display: block;
+    background-attachment: fixed;
+  }
+
+  p{
+    @include font;
+    color: #969696;
+
+    strong{
+      color: $color3;
+    }
+  }
+
+  header{
+    @include headerSmall;
+
+      div{
+
+        nav{
+
+            @include button1;
+
+            #aa {
+              color: $color4;
+            }
+
+            #bb {
+              color: $color5;
+            }
+
+            #cc{
+              color: $color1;
+            }
+
+            #dd{
+              color: $color2;
+            }
+
+        } /* end nav */
+      } /* end div */
+    } /* end header */
+
+  main {
+
+    #projects {
+        background-image: url("../img/bjerg.jpg");
+        background-repeat: none;
+        background-attachment: fixed;
+        background-size: cover;
+        margin: auto;
+        margin-top: 300px;
+
+        #projectsheader{
+          color: $backgroundColor;
+        }
+
+          div {
+              background-color: rgba(239, 192, 40, 0.9);
+            img{
+              width: 30%;
+              height: auto;
+              border-radius: 50%;
+              margin: auto;
+              padding: 10px;
+              display: block;
+            }
+
+            div {
+                background-color: rgba(239, 192, 40, 0.9);
+
+              h4{
+                @include h4;
+              }
+
+              p{
+                @include font;
+                color: $backgroundColor;
+                padding: 20px;
+                opacity: 1;
+                letter-spacing: 1px;
+                filter: alpha(opacity=70); /* For IE8 and earlier */
+              } /*end p*/
+            } /*end div*/
+          } /*end project 1 */
+      } /*end projects*/
+
+    #future{
+          background-color: $color5;
+
+          #futureheader {
+            color: $backgroundColor;
+          }
+
+          p{
+            padding: 10px;
+            margin: auto;
+            line-height: 25px;
+            width: 85%;
+            margin: auto;
+            font-size: 20px;
+            font-family: 'Raleway', 'Quicksand', 'Dosis', 'Nunito', 'Reem Kufi', sans-serif;
+            color: $backgroundColor;
+
+          }
+
+          ul{
+            display: block;
+            width: 70%;
+            margin: auto;
+            padding-bottom: 20px;
+            li{
+              @include font;
+              text-decoration: none;
+              color: $backgroundColor;
+              line-height: 20px;
+              padding: 7px;
+            }
+          }
+        } /* end future */
+
+    #about{
+          background-color: $color1;
+          margin: 0 auto;
+
+      #aboutheader {
+        padding-top: 20px;
+        float: none;
+        color: $backgroundColor;
+        margin: 0 auto;
+          }
+
+          h4{
+            @include h4;
+          }
+
+          p{
+            @include font;
+            color: $backgroundColor
+          }
+
+        ul{
+          display: block;
+          width: 70%;
+          margin: auto;
+          padding-bottom: 20px;
+          li{
+            @include font;
+            text-decoration: none;
+            color: $backgroundColor;
+            line-height: 20px;
+            padding: 7px;
+          }
+        }
+
+        } /* end about */
+
+    #contact{
+        background-color: $color2;
+        margin: auto;
+
+        #contactheader {
+        padding-top: 20px;
+        float: none;
+        color: $backgroundColor;
+        margin: 0 auto;
+        }
+
+        p{
+          color: $backgroundColor;
+          padding: 20px;
+          margin: auto;
+          text-align: center;
+          a{
+            color:$backgroundColor;
+            text-decoration: none;
+          }
+        }
+
+        p{
+          padding: 20px;
+          padding-bottom: 20px;
+          margin: auto;
+          text-align: center;
+          a{
+            color:$backgroundColor;
+            text-decoration: none;
+          }
+        }
+
+      p{
+        @include font;
+      }
+
+    } /* end about */
+
+  } /*end main */
+  } /* End max width 600px */
